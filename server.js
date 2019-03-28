@@ -21,7 +21,7 @@ app.use(express.json());
 
 
 // route
-app.get('/', (req, res) => {
+app.get('/BO', (req, res) => {
   Bulletin.findOne({},(err, data)=>{
     res.render("./client/build");
   })
