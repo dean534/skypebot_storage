@@ -1,0 +1,18 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start",
+    "dev": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "build-client": "npm run build --prefix ./client "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20"
+  }
+}
